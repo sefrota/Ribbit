@@ -2,8 +2,20 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context=".MainActivity">
-    <item android:id="@+id/action_settings"
-          android:title="@string/action_settings"
-          android:orderInCategory="100"
-          app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="100"
+        android:title="@string/menu_camera_label"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_edit_friends"
+        android:orderInCategory="100"
+        android:title="@string/menu_edit_friends_label"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/menu_logout_label"
+        app:showAsAction="never"/>
 </menu>
